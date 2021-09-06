@@ -30,6 +30,8 @@ L'application est lancée par défaut sur le port 8080. Ce port est visible dans
 ```
 INFO 2924 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 ```
+L'application contient une BDD H2 embarquée. Les données ne serons enregistrées que le temps de l'exécution de l'application.
+
 
 Pour lancer les tests unitaires de l'application, exécuter :
 ```
