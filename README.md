@@ -126,5 +126,7 @@ Enfin, les classes contenant les tests unitaires sont présentes dans le dossier
 Sources utilisées pour la création du projet :
 
 Création de services REST avec Spring : https://spring.io/guides/tutorials/rest/
+
 Tester les API avec Springboot : https://openclassrooms.com/fr/courses/6900101-creez-une-application-java-avec-spring-boot/7078023-testez-votre-api-avec-spring-boot
+
 Logger le temps d'exécution des requêtes : https://github.com/krushnaDash/spring-aop-log
