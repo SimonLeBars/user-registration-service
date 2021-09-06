@@ -1,0 +1,17 @@
+package registration.exceptions;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ControllerAdvice
+class WrongPhoneNumberFormatAdvice {
+	@ResponseBody
+	@ExceptionHandler(WrongPhoneNumberFormatException.class)
+	@ResponseStatus(HttpStatus.BAD_REQUEST)
+	String employeeNotFoundHandler(WrongPhoneNumberFormatException e) {
+		return e.getMessage();
+	}
+}
